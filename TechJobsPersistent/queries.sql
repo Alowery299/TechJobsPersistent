@@ -19,7 +19,7 @@ WHERE Location="St.Louis City"
 /*write a query to return a list of the names and descriptions of all skills that are attached to jobs in alphabetical order. 
 If a skill does not have a job listed, it should not be included in the results of this query.
 
-SELECT skills, Name, Description
+SELECT Name, Description
 FROM skills
 INNER JOIN jobs
 ON skills.Id =  jobs.Id
